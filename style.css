@@ -505,6 +505,35 @@ footer {
     font-size: 14px;
 }
 
+/* HERO LOGO */
+
+.hero-logo {
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    animation: floatLogo 4s ease-in-out infinite;
+    box-shadow:
+        0 0 30px rgba(255, 205, 0, 0.25),
+        0 0 80px rgba(255, 205, 0, 0.15);
+}
+
+@keyframes floatLogo {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
 
 /* MOBILE */
 
