@@ -1,9 +1,3 @@
-const button = document.getElementById("communityButton");
-
-button.addEventListener("click", function() {
-    alert("🇸🇪 Swecoin community coming soon!");
-});
-
 
 // TEMPORARY DEMO PRICE
 
