@@ -88,23 +88,53 @@ body {
 .hero {
 
     min-height: 80vh;
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
     text-align: center;
-
     padding: 80px 20px;
 
+    position: relative;
+    overflow: hidden;
 }
 
+.hero::before {
+    content: "";
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    background: rgba(255, 205, 0, 0.12);
+
+    border-radius: 50%;
+
+    filter: blur(80px);
+
+    animation: heroGlow 6s ease-in-out infinite;
+}
+
+@keyframes heroGlow {
+
+    0% {
+        transform: translate(-200px, -100px);
+    }
+
+    50% {
+        transform: translate(200px, 100px);
+    }
+
+    100% {
+        transform: translate(-200px, -100px);
+    }
+
+}
 
 .hero-content {
 
     max-width: 900px;
+    position: relative;
+    z-index: 1;
 }
 
 
