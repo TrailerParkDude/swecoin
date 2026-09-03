@@ -49,15 +49,11 @@ body {
 }
 
 
-.logo {
-
-    font-size: 22px;
-
-    font-weight: 900;
-
-    letter-spacing: 2px;
-
-    color: #FFCD00;
+.logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    border-radius: 50%;
 }
 
 
