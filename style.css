@@ -23,6 +23,8 @@ body {
 
 /* NAVBAR */
 
+
+
 .navbar {
 
     width: 100%;
@@ -63,6 +65,9 @@ body {
     gap: 12px;
 }
 
+.logo a {
+    text-decoration: none;
+}
 
 .logo span {
     color: #ffffff;
